@@ -1,0 +1,14 @@
+GET		/bars
+			lat=3.154287545
+			lng=-45.15658746
+			
+GET		/bars/15/beers
+			
+GET		/events
+			lat=3.154287545
+			lng=-45.15658746
+			
+GET		/search
+			str=trapp
+			lat=3.154287545
+			lng=-45.15658746
