@@ -112,7 +112,7 @@ class Bar
      */
     protected $country;
 
-    
+
     protected $price;
 
     /**
