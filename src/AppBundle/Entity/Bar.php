@@ -59,61 +59,58 @@ class Bar
     /**
      * @var string
      *
-     * @ORM\Column(name="phone", type="string", length="50")
+     * @ORM\Column(name="phone", type="string", length=50)
      */
     protected $phone;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="email", type="string", length="255")
+     * @ORM\Column(name="email", type="string", length=255)
      */
     protected $email;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="facebook_page", type="string", length="255")
+     * @ORM\Column(name="facebook_page", type="string", length=255)
      */
     protected $facebookPage;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="website", type="string", length="255")
+     * @ORM\Column(name="website", type="string", length=255)
      */
     protected $website;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="address", type="string", length="255")
+     * @ORM\Column(name="address", type="string", length=255)
      */
     protected $address;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="zipcode", type="string", length="15")
+     * @ORM\Column(name="zipcode", type="string", length=15)
      */
     protected $zipcode;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="city", type="string", length="150")
+     * @ORM\Column(name="city", type="string", length=150)
      */
     protected $city;
 
     /**
      * @var string
      *
-     * @ORM\Column(name="country", type="string", length="150")
+     * @ORM\Column(name="country", type="string", length=150)
      */
     protected $country;
-
-
-    protected $price;
 
     /**
      * Get id

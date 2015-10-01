@@ -2,6 +2,8 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\ORM\Mapping as ORM;
+
 /**
  * BarHasBeersRepository
  *
@@ -10,4 +12,5 @@ namespace AppBundle\Entity;
  */
 class BarHasBeersRepository extends \Doctrine\ORM\EntityRepository
 {
+
 }
