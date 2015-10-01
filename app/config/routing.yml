@@ -1,3 +1,33 @@
 app:
     resource: "@AppBundle/Controller/"
-    type:     annotation
+    prefix:   /v0
+
+get_beer:
+    path:      /beers/{id}
+    defaults:  { _controller: AppBundle:Beer:One }
+    methods:  [GET]
+
+get_beers:
+    path:      /beers
+    defaults: { _controller: AppBundle:Beer:All }
+    methods:  [GET]
+
+get_bars_by_beer:
+    path:     /beers/{id}/bars
+    defaults: { _controller: AppBundle:Beer:BarsByBeer }
+    methods:  [GET]
+
+get_bar:
+    path:     /bars/{id}
+    defaults: { _controller: AppBundle:Bar:One }
+    methods:  [GET]
+
+get_bars:
+    path:     /bars
+    defaults: { _controller: AppBundle:Bar:All }
+    methods:  [GET]
+
+get_beers_by_bar:
+    path:      /bars/{id}/beers
+    defaults: { _controller: AppBundle:Beer:BeersByBar }
+    methods:  [GET]
